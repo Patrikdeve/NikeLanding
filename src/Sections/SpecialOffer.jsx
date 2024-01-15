@@ -19,13 +19,14 @@ const SpecialOffer = () => {
               unbeatable deals. From premier selections to incredible savings, we
               offer unparalleled value that sets us apart.
           </p> 
-          <p className='  info-text flex-wrap  mt-10'>
+          <p className=' info-text flex-wrap  mt-10'>
               Navigate a realm of possibilities designed to fulfill your unique
               desires, surpassing the loftiest expectations. Your journey with us is
               nothing short of exceptional.
           </p>
-          <div className='mt-20 max-lg:mb-10 flex flex-wrap gap-4'>
+          <div className=' mt-20 max-lg:mt-10 max-lg:mb-10 flex max-lg:flex-col flex-wrap gap-4'>
               <Button label='View Details' iconUrl={arrowRight}/>
+              <button className='rounded-full py-3 px-8 border-2 border-slate-gray info-text hover:bg-coral-red cursor-pointer hover:text-white hover:border-red-400'>Learn More</button>
           </div>
       </div>
     </div>
